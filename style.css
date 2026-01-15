@@ -1,0 +1,169 @@
+/*#23397F    barra-#0056b3  texto-#b6eaff 
+
+
+#31c7ed -> #0d80f2
+ 
+#00bfff1f -> #00bfff45
+
+*/
+.shadow-banner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: #00bfff45;*/
+    z-index: 1;
+}
+
+.shadow-banner .filled-button{
+    position: absolute;
+    z-index: 9;
+    top: 60%;
+    left: 12%;
+}
+
+.logo-navbar {
+    position: absolute;
+    z-index: 9;
+    top: 10%;
+    left: 10%;
+    width: 15%;
+}
+
+@media (min-width: 1200px) {
+    .shadow-banner .filled-button{
+        position: absolute;
+        z-index: 9;
+        top: 60%;
+        left: 12%;
+    }
+}
+
+@media (max-width: 680px) {
+    .shadow-banner .filled-button{
+        position: absolute;
+        z-index: 9;
+        top: 70%;
+        left: 12%;
+    }
+
+    
+    .logo-navbar {
+        position: absolute;
+        z-index: 9;
+        top: 10%;
+        left: 10%;
+        width: 50%;
+    }
+
+    .navbar-expand-lg > .container {
+        height: 30px;
+    }
+
+}
+
+
+.shadown-funfacts{
+    margin-top: 140px;
+    width: 100%;
+    height: 630px;
+    background-color: #00bfff45;
+    position: absolute;
+}
+
+
+
+@media (max-width: 680px) {
+    .shadown-funfacts{
+        margin-top: 140px;
+        width: 100%;
+        height: calc(100% + 860px);
+        background-color: #00bfff45;
+        position: absolute;
+    }
+}
+@media (min-width: 680px) {
+    .shadown-funfacts{
+        margin-top: 140px;
+        width: 100%;
+        height: 1420px;
+        background-color: #00bfff45;
+        position: absolute;
+    }
+}
+@media (min-width: 768px) {
+    .shadown-funfacts{
+        margin-top: 140px;
+        width: 100%;
+        height: 630px;
+        background-color: #00bfff45;
+        position: absolute;
+    }
+}
+@media (min-width: 900px) {
+    .shadown-funfacts{
+        margin-top: 140px;
+        width: 100%;
+        height: 630px;
+        background-color: #00bfff45;
+        position: absolute;
+    }
+}
+
+@media (min-width: 992px) {
+    .shadown-funfacts{
+        margin-top: 140px;
+        width: 100%;
+        height: 630px;
+        background-color: #00bfff45;
+        position: absolute;
+    }
+}
+@media (min-width: 1000px) {
+    .shadown-funfacts{
+        margin-top: 140px;
+        width: 100%;
+        height: 630px;
+        background-color: #00bfff45;
+        position: absolute;
+    }
+}
+@media (min-width: 1200px) {
+    .shadown-funfacts{
+        margin-top: 140px;
+        width: 100%;
+        height: 630px;
+        background-color: #00bfff45;
+        position: absolute;
+    }
+}
+
+
+
+/*-baout-*/
+.shadow-banner-about{
+    position: absolute;
+    width: 100%;
+    height: 51%;
+    background-color: #00bfff45;
+    z-index: 1;
+}
+
+
+/*-bar-dv-*/
+.text-bar-dv{
+    color: #4e4e4e!important;
+}
+
+/*banner*/
+.text-banner{
+    color:#fff!important;
+}
+
+.textmenu {
+    color:#23397F!important;
+}
+
+.text-panel{
+    color:#4e4e4e!important;
+    font-size: 15px;
+}
